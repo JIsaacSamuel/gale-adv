@@ -23,6 +23,8 @@ func Init() {
 	rl.SetExitKey(0)
 	rl.SetTargetFPS(60)
 
+	Initialise_player()
+
 	GrassTile = rl.LoadTexture("/home/isaac/github.com/JIsaacSamuel/gale-adv/Assets/Mossy_assets/Mossy - FloatingPlatforms.png")
 	PlayerIdle = rl.LoadTexture("/home/isaac/github.com/JIsaacSamuel/gale-adv/Assets/Hero Knight/Sprites/Idle.png")
 

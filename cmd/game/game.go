@@ -11,6 +11,7 @@ func main() {
 	defer lvl.Exit()
 
 	for !rl.WindowShouldClose() {
+		lvl.Input()
 		lvl.Render()
 	}
 }
