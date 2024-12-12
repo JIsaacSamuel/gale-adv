@@ -14,6 +14,6 @@ func Initialise_player() {
 		health:  20,
 		damage:  3,
 		v_speed: 3,
-		h_speed: 3.5,
+		h_speed: 5,
 	}
 }

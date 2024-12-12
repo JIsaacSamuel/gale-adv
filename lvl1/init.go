@@ -25,12 +25,12 @@ func Init() {
 
 	Initialise_player()
 
-	GrassTile = rl.LoadTexture("/home/isaac/github.com/JIsaacSamuel/gale-adv/Assets/Mossy_assets/Mossy - FloatingPlatforms.png")
+	GrassTile = rl.LoadTexture("/home/isaac/github.com/JIsaacSamuel/gale-adv/Assets/Texture/TX Tileset Ground.png")
 	PlayerIdle = rl.LoadTexture("/home/isaac/github.com/JIsaacSamuel/gale-adv/Assets/Hero Knight/Sprites/Idle.png")
 
-	Player_Src = rl.NewRectangle(0, 0, 180, 180)
-	Player_Dest = rl.NewRectangle(90, 90, 360, 360)
+	Player_Src = rl.NewRectangle(60, 60, 60, 60)
+	Player_Dest = rl.NewRectangle(0, 478, 60, 60)
 
-	Grass_Src = rl.NewRectangle(0, 1536, 2048, 512)
-	Grass_Dest = rl.NewRectangle(10, 500, 512, 128)
+	Grass_Src = rl.NewRectangle(0, 384, 60, 30)
+	Grass_Dest = rl.NewRectangle(0, 536, 96, 64)
 }
